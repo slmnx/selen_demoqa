@@ -30,7 +30,7 @@ def test_form_of_demoqa():
     browser.element('.modal-body').should(have.text('Male'))
     browser.element('.modal-body').should(have.text('9091234567'))
     browser.element('.modal-body').should(have.text('28 April,1994'))
-    browser.element('.modal-body').should(have.text('history'))
+    browser.element('.modal-body').should(have.text('History'))
     browser.element('.modal-body').should(have.text('Sports'))
     browser.element('.modal-body').should(have.text('crazyduck.jpg'))
     browser.element('.modal-body').should(have.text('Moscow leskova'))
